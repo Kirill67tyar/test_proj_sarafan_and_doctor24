@@ -146,3 +146,4 @@ api/admin.py
 
 products/views.py
 
+staticfiles/
