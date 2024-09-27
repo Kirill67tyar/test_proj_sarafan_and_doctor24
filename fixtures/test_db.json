@@ -1,0 +1,894 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-26T20:58:10.121Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "t",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 7,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 7,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 7,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 7,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add token",
+    "content_type": 8,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change token",
+    "content_type": 8,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete token",
+    "content_type": 8,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view token",
+    "content_type": 8,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Корзина",
+    "content_type": 9,
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Корзина",
+    "content_type": 9,
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Корзина",
+    "content_type": 9,
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Корзина",
+    "content_type": 9,
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Категория",
+    "content_type": 10,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Категория",
+    "content_type": 10,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Категория",
+    "content_type": 10,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Категория",
+    "content_type": 10,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Продукт",
+    "content_type": 11,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Продукт",
+    "content_type": 11,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Продукт",
+    "content_type": 11,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Продукт",
+    "content_type": 11,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Товар в корзине",
+    "content_type": 12,
+    "codename": "add_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Товар в корзине",
+    "content_type": 12,
+    "codename": "change_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Товар в корзине",
+    "content_type": 12,
+    "codename": "delete_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Товар в корзине",
+    "content_type": 12,
+    "codename": "view_cartitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$wfYTIfHtjRkzAnbxW74gge$Hr5tE40Cl+sYkyhJNRXfH6BCAtFruF0ZFDdIAfc1HsM=",
+    "last_login": "2024-09-26T20:58:29.499Z",
+    "is_superuser": true,
+    "username": "test-admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "test-admin@test.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-26T20:56:52.991Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "products",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "products",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "products",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "products",
+    "model": "cartitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v5gtxoat14v2pdjf9l9q60vkcfinaf5p",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAUBe_C2hDgA6Eu3XsG8oGHVE2blHZlvLs26UK3b2beS0Te1ha3jiWORZyFEaffLXF-YNpBufN0m2Wep3UZk9wVedAur3PB83K4fweNe_vWCAgZg1I2gbg6wAUL5agWHwZlGTpR9r66oEEKJlPSlAqxhVGGxPsD-_Q4JA:1stvZF:JsUvyCMw-ascCc8MpWfgsyKgnJzpdB-IWp6jDuEj_T0",
+    "expire_date": "2024-10-10T20:58:29.509Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Напитки",
+    "slug": "napitki",
+    "image": "categories/1000_F_283327619_rnfUpLgzfn0PD1riXgiNMk2QSORJjbRR.jpg",
+    "parent": null,
+    "lft": 1,
+    "rght": 8,
+    "tree_id": 6,
+    "level": 0
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Еда",
+    "slug": "eda",
+    "image": "categories/black-white-logo-fork-spoon_1166234-2104.jpg",
+    "parent": null,
+    "lft": 1,
+    "rght": 10,
+    "tree_id": 4,
+    "level": 0
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Кофе",
+    "slug": "kofe",
+    "image": "categories/coffee-logo.jpg",
+    "parent": 1,
+    "lft": 2,
+    "rght": 3,
+    "tree_id": 6,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Чай",
+    "slug": "chaj",
+    "image": "categories/tea-logo.jpg",
+    "parent": 1,
+    "lft": 6,
+    "rght": 7,
+    "tree_id": 6,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Печенье",
+    "slug": "pechene",
+    "image": "categories/cookies-logo.jpg",
+    "parent": 2,
+    "lft": 6,
+    "rght": 7,
+    "tree_id": 4,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Пицца",
+    "slug": "pizza",
+    "image": "categories/pizza-logo.jpg",
+    "parent": 2,
+    "lft": 8,
+    "rght": 9,
+    "tree_id": 4,
+    "level": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Кофе1",
+    "slug": "kofe1",
+    "category": 3,
+    "price": "3.12",
+    "image": "products/original/close-up-hand-pouring-milk-in-coffee-cup_23-2148865584.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Кофе2",
+    "slug": "kofe2",
+    "category": 3,
+    "price": "12345678.91",
+    "image": "products/original/coffee-cup-wooden-table-dark-wall.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Кофе3",
+    "slug": "kofe3",
+    "category": 3,
+    "price": "3211.00",
+    "image": "products/original/coffee-machine-making-a-perfect-cup-of-coffee_23-2151699668.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Кофе4",
+    "slug": "kofe4",
+    "category": 3,
+    "price": "32112.12",
+    "image": "products/original/person-serving-a-cup-of-coffee_1286-227.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Печенье1",
+    "slug": "pechene1",
+    "category": 5,
+    "price": "312.32",
+    "image": "products/original/close-up-chocolate-cookies_23-2148628343.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Печенье2",
+    "slug": "pechene2",
+    "category": 5,
+    "price": "909.12",
+    "image": "products/original/close-up-cookies-with-nuts_23-2148837112.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Печенье3",
+    "slug": "pechene3",
+    "category": 5,
+    "price": "9091.13",
+    "image": "products/original/delicious-cookies-table_23-2148837156.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Печенье4",
+    "slug": "pechene4",
+    "category": 5,
+    "price": "13313.13",
+    "image": "products/original/paper-bag-with-delicious-cookies-table_23-2148837153.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Печенье5",
+    "slug": "pechene5",
+    "category": 5,
+    "price": "931.13",
+    "image": "products/original/view-pepernoten-dessert-still-life_23-2149766671.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Чай1",
+    "slug": "chaj1",
+    "category": 4,
+    "price": "424.41",
+    "image": "products/original/front-view-tea-herbal-concept-with-copy-space_23-2148555200.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Чай2",
+    "slug": "chaj2",
+    "category": 4,
+    "price": "3123.31",
+    "image": "products/original/fruit-infused-water-with-fruits-wood-teapot-stone-tile-wooden-surface__1P1llYd.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Чай3",
+    "slug": "chaj3",
+    "category": 4,
+    "price": "3123.13",
+    "image": "products/original/high-angle-tea-glass-with-crystallized-sugar_23-2148759265.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Чай4",
+    "slug": "chaj4",
+    "category": 4,
+    "price": "313.31",
+    "image": "products/original/homemade-fruit-berry-tea-with-mint_114579-11203.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Чай5",
+    "slug": "chaj5",
+    "category": 4,
+    "price": "645.36",
+    "image": "products/original/tea-pot-with-lemon-slices_23-2148550451.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Пицца1",
+    "slug": "picca1",
+    "category": 6,
+    "price": "3123.13",
+    "image": "products/original/delicious-pizza-studio_23-2151846549.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Пицца2",
+    "slug": "picca2",
+    "category": 6,
+    "price": "43.24",
+    "image": "products/original/delicious-pizza-traditional-italian-pizza_1328-3977.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Пицца3",
+    "slug": "picca3",
+    "category": 6,
+    "price": "4234.42",
+    "image": "products/original/slice-crispy-pizza-with-meat-cheese_140725-6974.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Пицца4",
+    "slug": "picca4",
+    "category": 6,
+    "price": "4224.14",
+    "image": "products/original/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn_87pZVz2.jpg"
+  }
+},
+{
+  "model": "products.cart",
+  "pk": 1,
+  "fields": {
+    "owner": 2
+  }
+},
+{
+  "model": "products.cartitem",
+  "pk": 1,
+  "fields": {
+    "cart": 1,
+    "product": 3,
+    "quantity": 5
+  }
+},
+{
+  "model": "products.cartitem",
+  "pk": 2,
+  "fields": {
+    "cart": 1,
+    "product": 7,
+    "quantity": 3
+  }
+},
+{
+  "model": "products.cartitem",
+  "pk": 3,
+  "fields": {
+    "cart": 1,
+    "product": 13,
+    "quantity": 2
+  }
+},
+{
+  "model": "products.cartitem",
+  "pk": 4,
+  "fields": {
+    "cart": 1,
+    "product": 18,
+    "quantity": 10
+  }
+}
+]
