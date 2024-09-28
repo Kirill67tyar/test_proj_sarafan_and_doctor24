@@ -126,7 +126,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10,
 }
 
-DJOSER = { 
+DJOSER = {
     # 'HIDE_USERS': True,
     'DISABLED_ENDPOINTS': [
         'users',  # Отключить список пользователей

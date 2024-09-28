@@ -4,10 +4,11 @@ from products.models import Cart, Category, Product
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    prepopulated_fields = {'slug': ['name',],}
+    prepopulated_fields = {'slug': ['name', ], }
+
 
 class ProductAdmin(admin.ModelAdmin):
-    prepopulated_fields = {'slug': ['name',],}
+    prepopulated_fields = {'slug': ['name', ], }
 
 
 admin.site.register(Category, CategoryAdmin,)

@@ -14,7 +14,6 @@ from api.serializers import (CartItemSerializer, CategorySerializer,
                              CreateDeleteCartItemSerializer, ProductSerializer,
                              UpdateCartItemSerializer)
 from api.viewsets import ReadOnlyListModelViewSet
-from api.utils import check_auth_for_swagger
 from main import constants
 from products.models import Cart, CartItem, Category, Product
 

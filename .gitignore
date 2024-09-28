@@ -140,10 +140,12 @@ dmypy.json
 draft/
 
 # backend
+api/tests.py
 api/models.py
 api/migrations/
 api/admin.py
 
 products/views.py
+products/tests.py
 
 staticfiles/
