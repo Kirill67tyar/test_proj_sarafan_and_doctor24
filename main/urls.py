@@ -10,12 +10,8 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Your Project API",
+        title="Тестовое задание Доктор24 и Сарафан",
         default_version='v1',
-        description="API documentation",
-        terms_of_service="https://www.example.com/terms/",
-        contact=openapi.Contact(email="contact@example.com"),
-        license=openapi.License(name="BSD License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
